@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NIRS_kinect", "NIRS_kinect\NIRS_kinect.csproj", "{34D44729-28DC-40C8-A1BA-1A3175411DE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "freenectdotnet", "..\libfreenect\wrappers\csharp\src\lib\VS2010\freenectdotnet.csproj", "{360413F9-4D9B-46BE-BEC7-9B666850ED8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudMapping", "CloudMapping\CloudMapping.csproj", "{B8C4FC09-74D4-41A5-9D3A-DFF21E6416FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34D44729-28DC-40C8-A1BA-1A3175411DE2}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{34D44729-28DC-40C8-A1BA-1A3175411DE2}.Debug|anycpu.Build.0 = Debug|anycpu
+		{34D44729-28DC-40C8-A1BA-1A3175411DE2}.Release|anycpu.ActiveCfg = Release|anycpu
+		{34D44729-28DC-40C8-A1BA-1A3175411DE2}.Release|anycpu.Build.0 = Release|anycpu
+		{34D44729-28DC-40C8-A1BA-1A3175411DE2}.Debug|x64.ActiveCfg = Debug|anycpu
+		{34D44729-28DC-40C8-A1BA-1A3175411DE2}.Debug|x64.Build.0 = Debug|anycpu
+		{34D44729-28DC-40C8-A1BA-1A3175411DE2}.Release|x64.ActiveCfg = Release|anycpu
+		{34D44729-28DC-40C8-A1BA-1A3175411DE2}.Release|x64.Build.0 = Release|anycpu
+		{360413F9-4D9B-46BE-BEC7-9B666850ED8C}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{360413F9-4D9B-46BE-BEC7-9B666850ED8C}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{360413F9-4D9B-46BE-BEC7-9B666850ED8C}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{360413F9-4D9B-46BE-BEC7-9B666850ED8C}.Release|anycpu.Build.0 = Release|Any CPU
+		{360413F9-4D9B-46BE-BEC7-9B666850ED8C}.Debug|x64.ActiveCfg = Debug|x64
+		{360413F9-4D9B-46BE-BEC7-9B666850ED8C}.Debug|x64.Build.0 = Debug|x64
+		{360413F9-4D9B-46BE-BEC7-9B666850ED8C}.Release|x64.ActiveCfg = Release|x64
+		{360413F9-4D9B-46BE-BEC7-9B666850ED8C}.Release|x64.Build.0 = Release|x64
+		{B8C4FC09-74D4-41A5-9D3A-DFF21E6416FE}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{B8C4FC09-74D4-41A5-9D3A-DFF21E6416FE}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{B8C4FC09-74D4-41A5-9D3A-DFF21E6416FE}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{B8C4FC09-74D4-41A5-9D3A-DFF21E6416FE}.Release|anycpu.Build.0 = Release|Any CPU
+		{B8C4FC09-74D4-41A5-9D3A-DFF21E6416FE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B8C4FC09-74D4-41A5-9D3A-DFF21E6416FE}.Debug|x64.Build.0 = Debug|Any CPU
+		{B8C4FC09-74D4-41A5-9D3A-DFF21E6416FE}.Release|x64.ActiveCfg = Release|Any CPU
+		{B8C4FC09-74D4-41A5-9D3A-DFF21E6416FE}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4ABCD2E-E036-4A6A-A248-4FAA469A00C8}
+	EndGlobalSection
+EndGlobal
